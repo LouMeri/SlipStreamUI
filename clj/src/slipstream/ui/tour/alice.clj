@@ -20,7 +20,7 @@
    [
       :#ss-section-group-0
       {:title "Main sections"
-       :content (str "There are three main section on the welcome page of SlipStream. "
+       :content (str "There are three main sections on the welcome page of SlipStream. "
                      "<ol><li>AppStore</li><li>Projects</li><li>Service Catalog</li></ol>")}
 
       [:#ss-section-group-0 :> html/first-child]
@@ -58,7 +58,7 @@
 
       [:#ss-run-module-dialog :#tags]
       {:title "Give it a name"
-       :content "You can assing some <code>tags</code> to the deployment. This will be useful to recognise it later on. Try something like <code>wp-tour-test</code>. Don't worry, you will be able to update it later on."
+       :content "You can assign some <code>tags</code> to the deployment. This will be useful to recognise it later on. Try something like <code>wp-tour-test</code>. Don't worry, you will be able to update it later on."
        :container-sel "#ss-run-module-dialog"
        :preserve-padding true
        :placement "right"
@@ -89,7 +89,7 @@
 
       :#ss-breadcrumb-container
       {:title "The breadcrumbs"
-       :content (str "Across the whole application you can rely in the breadcrumbs to know where you are and navigate up the hierarchy."
+       :content (str "Across the whole application you can rely on the breadcrumbs to know where you are and to navigate up the hierarchy."
                      " E.g. clicking on the <span class='glyphicon glyphicon-home'></span> will bring you always to the welcome page , with the App Store."
                      "<br/><br/>"
                      "In this case, you can see which module (i.e. <code>wordpress</code>) and version was deployed and where it's located in the project tree.")
@@ -120,7 +120,7 @@
       [:#ss-section-group-0 :> [:div.panel.ss-section.panel-default html/last-child]]
       {:title "Reports"
        :content (str "For each run, SlipStream collects a series of reports that you will find here."
-                     " You might want to come here and download them specially if your run didn't worked as expected."
+                     " You might want to come here and download them especially if your run didn't work as expected."
                      "<br/><br/>"
                      "Note that you don't need to reload the page: the reports will automatically appear here when available.")
        :placement "top"}
@@ -201,8 +201,8 @@
         nil
         {
          :title "Cloud credentials"
-         :content (str "If you already have an account with a cloud provider, just prepare its credentials (usually a <code>user/password</code> or a <code>key/secret</code> pair). "
-                       "If not, please create one following the indications in our <a target='_blank' href='http://ssdocs.sixsq.com/documentation/advanced_tutorial/accounts.html#cloud-infrastructure-accounts'>documentation</a>. "
+         :content (str "If you already have an account with a cloud provider, have your credentials handy (usually a <code>user/password</code> or a <code>key/secret</code> pair). "
+                        "If not, please create one following the indications in our <a target='_blank' href='http://ssdocs.sixsq.com/documentation/advanced_tutorial/accounts.html#cloud-infrastructure-accounts'>documentation</a>. "
                        "<br/><br/>"
                        "When your cloud account is ready, go to the next step to learn how to set the credentials in your SlipStream user profile.")
          }
@@ -230,13 +230,13 @@
 
         [:#ss-section-group-0 :> :div.panel.ss-section-selected.ss-section.panel-default]
         {:title "Edit your personal information"
-         :content "First of all, please take this moment to make sure that your information is correct."
+         :content "First of all, please take a moment to make sure that your information is correct."
          :placement "top"
          }
 
         [:#ss-section-group-1]
         {:title "Cloud credentials"
-         :content "This is the configuration section for your cloud accounts. Please enter your credentials for at least one cloud here."
+         :content "This is the configuration section for your cloud accounts. Please enter your credentials for at least one cloud provider here."
          :placement "top"
          }
 
@@ -252,7 +252,7 @@
      [
         [:#topbar :> :div :> :div :> :div.navbar-header :> :a]
         {:title "Back to the main page"
-         :content "Now that you have at least one cloud configured, click on the logo to back to the AppStore on the main page and select your first app to deploy."
+         :content "Now that you have at least one cloud configured, click on the logo to to back to the AppStore on the main page and select your first app to deploy."
          :placement "bottom"
          :preserve-padding true
          }
